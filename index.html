@@ -1,48 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="ES">
   <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Web development Portafolio">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Full Stack JavaScript Web Developer En formación</title>
-    <style>
-      body {
-        font-family:"Lucida Console", Courier, monospace;
-      }
-      img #pic1 {
-        width: 5%;
-      }
-      footer {
-        width: 100%;
-        background-color: #c5bfbf;
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        padding: 3%;
-        text-align: center;
-      }
-    </style> 
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, Javsscript, Portafolio">
+  <meta name="author" content="Daniel Abuchaibe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Portafolio Daniel Abuchaibe </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
-  
+
   <body>
     <section>
-    <div>
-      <h1>Full Stack JavaScript Web Developer En formación</h1>
-      <p>Hola soy <b>Daniel</b>, y estoy en proceso de convertirme en un full satck JavaScript web developer</p>
-    </div>
-    <div class="container2">
-      <h4>Proyectos:</h4>
-      <h6>Proyecto No.1</h6>
-      <img src="https://www.shareicon.net/data/16x16/2015/10/30/664158_add_512x512.png" alt="Web Development Project" id="pic1">
-    </div>
+      <nav>
+        <a href="#" class="logo">&lt;Daniel Abuchaibe&gt;</Daniel></a>
+        <ul>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contactos">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="text-container">
+        <p>Hola,</p>
+        <p>Mi nombre es Daniel Abuchaibe</p>
+        <p>Estoy en proceso de convertirme un Full Stack JavaScript Web Developer</p>
+      </div>
     </section>
-    <br>
+    <div class="description-container">
+      <img src="./Imagenes/Photo_me.jpg" alt="Photo Daniel" class="photo-me">
+      <div class="text-description-container">
+        <p>Soy Daniel,</p>
+        <p>y estoy en proceso de convertirme en un <strong>Full Satck JavaScript Web Developer</strong>.</p>
+      </div>
+    </div>
+    <div class="projects-container" id="proyectos">
+      <div class="text-projects-container">
+        <p>Proyectos:</p>
+        <p>En esta seccion se encuentra una coleccion de mis mas destacados proyectos.</p>
+      </div>
+      <div class="box-projects-container">
+        <div class="box1">
+          <img src="./Imagenes/add-img.png" alt="add symbol">
+          <p>Proyecto</p>
+          <p>1</p>
+        </div>
+        <div class="box2">
+          <img src="./Imagenes/add-img.png" alt="add symbol">
+          <p>Proyecto</p>
+          <p>2</p>
+        </div>
+        <div class="box3">
+          <img src="./Imagenes/add-img.png" alt="add symbol">
+          <p>Proyecto</p>
+          <p>3</p>
+        </div>
+      </div>
+    </div>
+    <div class="contact" id="contactos">
+      <div class="textarea-text-conatiner">
+      <p>Si te encuentras interesad@ en mi trabajo deja un mensaje para <strong>contactarme</strong></p>
+      <textarea placeholder="Escribe tu mensaje aqui:" cols="50" rows="10"></textarea>
+      <button class="contact-button">Enviar!</button>
+      
+      </div>
+    </div>
     <footer>
-      <address>
-        Daniel Abuchaibe<br>
-        <br>
-        danielabuchiaber@gmail.com
-      </address>
+      <p><i>Portafolio: <br>Daniel Abuchaibe<br>danielabuchiabe@gmail.com</i></p>
+      <div class="socialmedia-icons">
+        <a href="#"><img src="./Imagenes/facebook-img2.png" target="_blank" alt="facebook image"></a>
+        <a href="#"><img src="./Imagenes/twitter-img2.png" target="_blank" alt="facebook image"></a>
+        <a href= "https://github.com/dlabuchaibe" target="_blank"><img src="./Imagenes/github-img2.png" alt="facebook image"></a>
+      </div>
     </footer>
+    <div class="socialmedia-icons-bar">
+      <a href="#"><img src="./Imagenes/facebook-img2.png" target="_blank" alt="facebook image"></a>
+      <a href="#"><img src="./Imagenes/twitter-img2.png" target="_blank" alt="facebook image"></a>
+      <a href= "https://github.com/dlabuchaibe" target="_blank"><img src="./Imagenes/github-img2.png" alt="facebook image"></a>
+    </div>
   </body>
 </html>
